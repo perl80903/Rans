@@ -207,11 +207,11 @@ namespace Rans
             return compressedData;
         }
 
-        static uint DecodeAdvance(uint r, ref int inputBufferIndex, byte[] inputBuffer, uint start, uint freq, uint scaleBits)
+        static uint DecodeAdvance(uint r, ref int inputBufferIndex, byte[] inputBuffer, uint start, uint freq)
         {
-            uint mask = (1u << (int)scaleBits) - 1;
+            uint mask = (1u << (int)PROB_BITS) - 1;
             uint x = r;
-            x = freq * (x >> (int)scaleBits) + (x & mask) - start;
+            x = freq * (x >> (int)PROB_BITS) + (x & mask) - start;
             if (x < RANS_BYTE_L)
             {
                 do
@@ -241,7 +241,7 @@ namespace Rans
             {
                 uint s = cumulativeToSymbolMapping[rans & ((1u << (int)PROB_BITS) - 1)];
                 outputBuffer[outputIndex] = (byte)s;
-                rans = DecodeAdvance(rans, ref inputBufferIndex, inputBuffer, stats.CumulativeSymbolFrequencies[s], stats.SymbolFrequencies[s], PROB_BITS);
+                rans = DecodeAdvance(rans, ref inputBufferIndex, inputBuffer, stats.CumulativeSymbolFrequencies[s], stats.SymbolFrequencies[s]);
             }
             return outputBuffer;
         }

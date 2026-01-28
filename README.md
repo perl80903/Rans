@@ -40,5 +40,7 @@ Compression with the "packaged" Rans encoding yields a ratio of 59,4830%.
 
 These ratios are not impressive when compared to general purpose archivers, like ZIP, but you have to
 consider that, like Huffman or arithmetic coding, r/ANS's compressed is based on symbol probabilities alone
-whereas ZIP and others use dictionaries to identify entropy across individual symbols.
+whereas ZIP and others use dictionaries to identify repeated strings of symbols.
 
+For data where there are skewed symbol probabilities but no (obvious) correlation between symbols, 
+r/ANS can be very effective.
