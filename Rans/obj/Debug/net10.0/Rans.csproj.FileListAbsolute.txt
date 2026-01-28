@@ -1,0 +1,15 @@
+C:\Users\per\source\repos\Rans\Rans\bin\Debug\net10.0\theraven.txt
+C:\Users\per\source\repos\Rans\Rans\bin\Debug\net10.0\Rans.exe
+C:\Users\per\source\repos\Rans\Rans\bin\Debug\net10.0\Rans.deps.json
+C:\Users\per\source\repos\Rans\Rans\bin\Debug\net10.0\Rans.runtimeconfig.json
+C:\Users\per\source\repos\Rans\Rans\bin\Debug\net10.0\Rans.dll
+C:\Users\per\source\repos\Rans\Rans\bin\Debug\net10.0\Rans.pdb
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\Rans.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\Rans.AssemblyInfoInputs.cache
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\Rans.AssemblyInfo.cs
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\Rans.csproj.CoreCompileInputs.cache
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\Rans.dll
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\refint\Rans.dll
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\Rans.pdb
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\Rans.genruntimeconfig.cache
+C:\Users\per\source\repos\Rans\Rans\obj\Debug\net10.0\ref\Rans.dll
